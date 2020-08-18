@@ -5,13 +5,15 @@ class Artist
 
   def initialize(name)
     @name = name
-    @songs = []
     @@all << self
   end
 
   def songs
     # search through Songs.all
-    # find the ones were song.artist == self 
+    # find the ones were song.artist == self
+
+    # maintain a single source of truth
+    # if you want information about a song, go to the Songs class
   end
 
   def self.all
