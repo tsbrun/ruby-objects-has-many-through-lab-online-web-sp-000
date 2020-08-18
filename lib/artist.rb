@@ -10,7 +10,8 @@ class Artist
   end
 
   def songs
-    self.songs
+    # search through Songs.all 
+    # find the ones were song.artist == self 
   end
 
   def self.all
