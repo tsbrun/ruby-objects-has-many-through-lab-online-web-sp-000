@@ -1,7 +1,7 @@
 class Genre
 
-  def initialize(genre)
-    @genre = genre
+  def initialize(name)
+    @name = name
   end
-  
+
 end
