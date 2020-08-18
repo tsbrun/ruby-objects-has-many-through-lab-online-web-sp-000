@@ -10,7 +10,7 @@ class Artist
 
   def songs
     # search through Song.all
-    # find the ones were song.artist == self
+    # find the ones where song.artist == self
     Song.all.select {|song| song.artist == self}
 
     # maintain a single source of truth
